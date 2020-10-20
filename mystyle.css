@@ -1,0 +1,38 @@
+body {
+  background-color: lavender;
+}
+
+h1 {
+  color: purple;
+  margin-left: 600px;
+  text-shadow: 1px 1px 3px #000;
+}
+#green {
+  margin-left: 700px;
+  padding: 20px;
+  border: 3px solid #000;
+  background: lightgreen
+}
+#blue {
+  margin-left: 800px;
+  padding: 20px;
+  background: lightblue
+}
+#purple {
+  margin-left: 900px;
+  padding: 20px;
+  border: 3px solid #000;
+  background: orchid
+}
+.roundedcorners {
+  border-radius: 25px;
+  border: 3px solid #000;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+.borderimg {
+  border: 5px solid transparent;
+  padding: 15px;
+  border-image: url(https://cdn.shopify.com/s/files/1/0241/9661/products/PL_BlackPolkaDots_2048x2048_9433c6cb-6afb-4d45-8c96-da4b0acef47c.jpg?v=1563369476) 30 round;
+}
